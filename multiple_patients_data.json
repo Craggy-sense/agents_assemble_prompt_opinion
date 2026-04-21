@@ -1,0 +1,73 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Patient/p1-asthma",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p1-asthma",
+        "name": [{"family": "Garcia", "given": ["Maria"]}],
+        "gender": "female",
+        "birthDate": "1990-05-20"
+      },
+      "request": {"method": "POST", "url": "Patient"}
+    },
+    {
+      "fullUrl": "Observation/p1-pef",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {"coding": [{"system": "http://loinc.org", "code": "3352-0", "display": "Peak expiratory flow rate"}]},
+        "subject": {"reference": "Patient/p1-asthma"},
+        "valueQuantity": {"value": 350, "unit": "L/min"}
+      },
+      "request": {"method": "POST", "url": "Observation"}
+    },
+    {
+      "fullUrl": "Patient/p2-heart-failure",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p2-heart-failure",
+        "name": [{"family": "Chen", "given": ["Robert"]}],
+        "gender": "male",
+        "birthDate": "1945-11-30"
+      },
+      "request": {"method": "POST", "url": "Patient"}
+    },
+    {
+      "fullUrl": "Observation/p2-weight",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {"coding": [{"system": "http://loinc.org", "code": "29463-7", "display": "Body weight"}]},
+        "subject": {"reference": "Patient/p2-heart-failure"},
+        "effectiveDateTime": "2026-03-29T08:00:00Z",
+        "valueQuantity": {"value": 95, "unit": "kg"}
+      },
+      "request": {"method": "POST", "url": "Observation"}
+    },
+    {
+      "fullUrl": "Patient/p3-pediatric-fever",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p3-pediatric-fever",
+        "name": [{"family": "Johnson", "given": ["Sarah"]}],
+        "gender": "female",
+        "birthDate": "2020-01-15"
+      },
+      "request": {"method": "POST", "url": "Patient"}
+    },
+    {
+      "fullUrl": "Observation/p3-temp",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {"coding": [{"system": "http://loinc.org", "code": "8310-5", "display": "Body temperature"}]},
+        "subject": {"reference": "Patient/p3-pediatric-fever"},
+        "valueQuantity": {"value": 39.2, "unit": "Cel"}
+      },
+      "request": {"method": "POST", "url": "Observation"}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "TRIAL-001",
+        "name": "Targeted Therapy for EGFR+ NSCLC",
+        "description": "A study evaluating the efficacy of a new tyrosine kinase inhibitor in patients with EGFR-mutated non-small cell lung cancer.",
+        "phase": "Phase 3",
+        "condition": "Non-Small Cell Lung Cancer",
+        "criteria": {
+            "biomarker": "EGFR",
+            "mutation_status": "positive",
+            "stage": ["Stage III", "Stage IV"]
+        },
+        "location": "Global Oncology Centers",
+        "contact": "trials@oncology-research.org"
+    },
+    {
+        "id": "TRIAL-002",
+        "name": "Immunotherapy in PD-L1 High Expression",
+        "description": "Investigating a novel PD-1 inhibitor in treatment-naive patients with advanced NSCLC and high PD-L1 expression (TPS >= 50%).",
+        "phase": "Phase 2",
+        "condition": "Non-Small Cell Lung Cancer",
+        "criteria": {
+            "biomarker": "PD-L1",
+            "min_expression": 50,
+            "stage": ["Stage IV"]
+        },
+        "location": "Regional Cancer Institute",
+        "contact": "research@regional-cancer.org"
+    },
+    {
+        "id": "TRIAL-003",
+        "name": "ALK Rearrangement Refractory Study",
+        "description": "A study for patients with ALK-positive NSCLC who have progressed on previous ALK inhibitors.",
+        "phase": "Phase 1/2",
+        "condition": "Non-Small Cell Lung Cancer",
+        "criteria": {
+            "biomarker": "ALK",
+            "mutation_status": "positive",
+            "prior_therapy": "ALK inhibitor"
+        },
+        "location": "Metropolitan Health System",
+        "contact": "clinical-trials@metropolitan-health.com"
+    }
+]
