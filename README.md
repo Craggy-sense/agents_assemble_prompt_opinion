@@ -59,4 +59,4 @@ Follow these steps to experience the full clinical power of the OCC:
 
 > [!NOTE]
 > **Developer**: Memusi Robi
-> **Affiliation**: Strathmore University / Agents Assemble Hackathon
+> **Affiliation**: Agents Assemble Hackathon
