@@ -48,6 +48,7 @@ from a2a.types import (
     AgentCapabilities,
     AgentCard,
     AgentExtension,
+    In,
     AgentSkill,
     APIKeySecurityScheme,
     SecurityScheme,
