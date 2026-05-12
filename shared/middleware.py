@@ -30,6 +30,7 @@ LOG_FULL_PAYLOAD = os.getenv("LOG_FULL_PAYLOAD", "true").lower() == "true"
 VALID_API_KEYS: set = {
     os.getenv("X_API_KEY", "my-secret-key-123"),
     "my-secret-key-123",    # fallback for local testing
+    "Daniella_100%",        # Hardcoded for Render deployment
 }
 
 
