@@ -11,6 +11,9 @@ In production, load keys from environment variables or a secrets manager
 import json
 import logging
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request  # kept for type hints in dispatch signature
