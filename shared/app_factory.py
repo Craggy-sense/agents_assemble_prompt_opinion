@@ -50,7 +50,6 @@ from a2a.types import (
     AgentExtension,
     AgentSkill,
     APIKeySecurityScheme,
-    In,
     SecurityScheme,
 )
 from starlette.responses import JSONResponse
