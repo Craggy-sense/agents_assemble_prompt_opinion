@@ -40,5 +40,57 @@
         },
         "location": "Metropolitan Health System",
         "contact": "clinical-trials@metropolitan-health.com"
+    },
+    {
+        "id": "TRIAL-004",
+        "name": "PARP Inhibitor in BRCA-Mutated Cancers",
+        "description": "Evaluating the efficacy of a novel PARP inhibitor in patients with advanced solid tumors harboring BRCA1 or BRCA2 pathogenic mutations.",
+        "phase": "Phase 3",
+        "condition": "Breast Cancer",
+        "criteria": {
+            "biomarker": "BRCA1",
+            "mutation_status": "positive"
+        },
+        "location": "National Cancer Institute",
+        "contact": "parp-trials@nci.gov"
+    },
+    {
+        "id": "TRIAL-005",
+        "name": "Precision Therapy for BRCA2+ Prostate Cancer",
+        "description": "A targeted approach using combination therapy for metastatic castration-resistant prostate cancer with BRCA2 mutations.",
+        "phase": "Phase 2",
+        "condition": "Prostate Cancer",
+        "criteria": {
+            "biomarker": "BRCA2",
+            "mutation_status": "positive"
+        },
+        "location": "Men's Health Oncology Network",
+        "contact": "prostate-trials@oncology.org"
+    },
+    {
+        "id": "TRIAL-006",
+        "name": "BRAF V600E Targeted Inhibitor Trial",
+        "description": "Clinical evaluation of a next-generation BRAF inhibitor for advanced melanoma patients with BRAF V600E mutations.",
+        "phase": "Phase 3",
+        "condition": "Melanoma",
+        "criteria": {
+            "biomarker": "BRAF",
+            "mutation_status": "positive"
+        },
+        "location": "Skin Cancer Research Center",
+        "contact": "melanoma-studies@research.org"
+    },
+    {
+        "id": "TRIAL-007",
+        "name": "KRAS G12D Inhibitor in GI Cancers",
+        "description": "Phase 1/2 study of a specific KRAS G12D inhibitor in patients with advanced colorectal and pancreatic cancers.",
+        "phase": "Phase 1/2",
+        "condition": "Colorectal Cancer",
+        "criteria": {
+            "biomarker": "KRAS",
+            "mutation_status": "positive"
+        },
+        "location": "GI Oncology Collaborative",
+        "contact": "kras-trials@gi-oncology.org"
     }
 ]

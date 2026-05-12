@@ -33,9 +33,12 @@ The OCC can formally delegate tasks to other specialists (Radiology, Pathology) 
 Follow these steps to experience the full clinical power of the OCC:
 
 ### Step 1: Initialize the Environment
-1. In the terminal, run: `./start.sh`
-2. This will refresh the tunnel and give you a fresh **Agent Card URL**.
-3. Update the **External Agent** in Prompt Opinion with this URL.
+1. Open a new terminal and run ngrok to expose port 8001:
+   `ngrok http 8001`
+2. Copy the **Forwarding URL** that `ngrok` gives you (it will look something like `https://xxxx-xx.ngrok-free.app`).
+3. Open a second terminal in your project directory and run the start script:
+   `./start.sh`
+4. Finally, go to your **Prompt Opinion** platform, find the **External Agent** configuration, and update its URL with the `ngrok` Forwarding URL you just copied.
 
 ### Step 2: The Oncology Patient
 1. Import `demo_oncology_patient.json` into the platform.
